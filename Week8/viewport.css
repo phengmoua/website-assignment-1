@@ -1,0 +1,13 @@
+@media (min-width:800px;) {
+    h1 {
+    color:#09f;
+}
+    p {
+    color:red;
+}
+    #main {
+    solid thin yellow;
+    width:800px;
+    margin: 0 auto;
+}
+}

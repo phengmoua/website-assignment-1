@@ -1,0 +1,50 @@
+@media print {
+    #main-content{
+        width:70%;
+        margin:0 auto;
+        border: dashed yellow;
+
+    }
+    #main-content img {
+        width:100%;
+        border: dashed yellow;
+    }
+}
+@media (max-width: 900px) {
+    #main-content{
+        width:70%;
+        margin:0 auto;
+        border: solid green;
+
+    }
+    #main-content img {
+        width:100%;
+
+    }
+}
+
+@media (max-width: 600px) {
+    #main-content{
+        width:70%;
+        margin:0 auto;
+        border: solid blue;
+
+    }
+    #main-content img{
+        width:100%;
+
+    }
+}
+
+@media (min-width:900px) {
+    #main-content{
+        width:70%;
+        margin:0 auto;
+        border: solid red;
+
+    }
+    #main-content img{
+        width:100%;
+
+    }
+}
