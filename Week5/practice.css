@@ -1,0 +1,25 @@
+#main {
+    width:80%;
+    margin:auto;
+    border: solid thin #000;
+    overflow:auto;
+    padding:20px;
+    box-sizing: border-box;
+}
+#main img {
+    width:500px;
+    float:left;
+    margin-right:10px;
+}
+.box {
+    width:100px;
+    height:100px;
+    background:#09f;
+    float:left;
+    margin:0px 10px 10px 0px;
+}
+footer {
+    height:200px;
+    background:#000;
+    clear: left;
+}

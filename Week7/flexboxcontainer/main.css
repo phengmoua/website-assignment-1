@@ -1,0 +1,95 @@
+.container1 {
+    width:80%;
+    border: dotted #000;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item {
+    background: #09f;
+    width:200px;
+    height:100px;
+    margin-bottom: 10px;
+    margin-right:10px;
+    text-align: center;
+}
+
+
+/***********************************
+
+         OTHER CONTAINERS
+
+***********************************/
+
+.container2 {
+    width:80%;
+    border: dotted #000;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
+.container3 {
+    width:80%;
+    border: dotted #000;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    align-self: flex-start;
+}
+.container4 {
+    width:80%;
+    border: dotted #000;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+}
+.container5 {
+    width:80%;
+    border: dotted #000;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container6 {
+    width:80%;
+    border: dotted #000;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.container7 {
+    width:80%;
+    border: dotted #000;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-self:flex-end;
+}
+.container8 {
+    width:80%;
+    border: dotted #000;
+    margin:0 auto;
+    padding:15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+}
